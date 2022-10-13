@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *  main - Main Function of my project  
- *  Return: Always 0 (Success)
+ * main - Main Function of my project  
+ * Return: Always 0 (Success)
  */
 
 int main(void)
