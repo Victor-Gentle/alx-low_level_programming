@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /*
- *  main - Entry Point
+ *  main - Main Function of my project
+ *  
  *  Return: Always 0 (Success)
  */
 
