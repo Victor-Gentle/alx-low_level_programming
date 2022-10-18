@@ -21,10 +21,10 @@ void print_times_table(int n)
 	for (mult = 1; mult <= n; mult++)
 	{
 		result = digit * mult;
-	if ((result / 10) > 100)
+	if ((result / 10) > 0)
 	{
-		_putchar(' ');
 		_putchar((result / 10) + '0');
+		_putchar(' ')
 	}
 	else
 	{
