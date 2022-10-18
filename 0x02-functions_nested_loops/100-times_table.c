@@ -20,6 +20,7 @@ void print_times_table(int n)
 		 result = digit * mult;
 		_putchar(44);
 		_putchar(32);
+		_putchar(result);
 	}
 	if (result <= 9)
 	{

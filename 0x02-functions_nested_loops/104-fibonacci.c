@@ -17,7 +17,7 @@ int main(void)
 	for (inc = 0; inc < 92; inc++)
 	{
 		n3 = n1 + n2;
-		printf("%1u, ", n3);
+		printf("%llu, ", n3);
 	}
 	n1 = n2;
 	n2 = n3;
