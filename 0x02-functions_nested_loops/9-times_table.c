@@ -13,19 +13,38 @@ void times_table(void)
 	for (digit = 0; digit <= 9; digit++)
 	{
 		_putchar('0');
-	for (mult = 1; mult <= 9 ; mult++)
+	for (mult = 0; mult <= 9 ; mult++)
 	{
 		result = digit * mult;
-		_putchar(',');
-		_putchar(result);
-	if (result <= 9)
-
-		_putchar(' ');
-	else
-		_putchar((result / 10) + '0');
+	if ((result / 10) == 0)
+	{
+	if (mult == 0)
+	{
+		_putchar('0');
 	}
-	_putchar((result % 10) + '0');
+	if (mult !=0)
+	{
+		_putchar(' ');
+		_putchar((result % 10) + '0');
+	}
+	if (mult < 9)
+	{
+		_putchar(',');
+		_putchar(' ');
+	}
+	}
+	else
+	{
+		_putchar((result / 10) + '0');
+		_putchar((result % 10) + '0');
+	}
+	if (mult < 9)
+	{
+		_putchar(',');
+		_putchar(' ');
+	}
 	}
 	_putchar('\n');
+	}
 }
 
