@@ -16,7 +16,7 @@ void times_table(void)
 		_putchar(',');
 		_putchar(' ');
 		
-	for (mult = 1; mult <= 9 ; mult++)
+	for (mult = 1; mult <= 9; mult++)
 	{
 		result = digit * mult;
 	if ((result / 10) > 0)
