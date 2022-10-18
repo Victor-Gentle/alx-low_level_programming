@@ -2,7 +2,8 @@
 
 /**
  * add - adds two integers and returns the result
- *@a, b: the targeted number
+ *@a: the targeted number
+ *@b: the targeted number
  *Return: result
  */
 
