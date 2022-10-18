@@ -9,28 +9,33 @@
 void print_times_table(int n)
 {
 	int digit, mult, result;
-
-	if (n <= 15 && n > 0)
+	
+	for (n <= 15; n > 0)
 	{
 	for (digit = 0; digit <= n; digit++)
 	{
 		_putchar('0');
-	for (mult = 0; mult <= n; mult++)
-	{
 		_putchar(',');
 		_putchar(' ');
-		result = digit * mult;
-	}
-	if (result <= n)
+		
+	for (mult = 1; mult <= n; mult++)
 	{
-		_putchar(' ');
+		result = digit * mult;
+	if ((result / 10) > 0)
+	{
+		_putchar((result / 10) + '0');
 	}
 	else
 	{
-		_putchar((result / 10) + '0');
-		_putchar((result % 10) + '0');
+		_putchar(' ');
+	}
+	_putchar((result % 10) + '0');
+	if (mult < n)
+	{
+		_putchar(',');
+		_putchar(' ');
+	}
 	}
 	_putchar('\n');
-	}
 	}
 }
