@@ -9,15 +9,15 @@
 void print_times_table(int n)
 {
 	int digit, mult, result;
-	
-	for (n <= 15; n > 0)
+
+	if (n <= 15 && n >= 0)
 	{
 	for (digit = 0; digit <= n; digit++)
 	{
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		
+
 	for (mult = 1; mult <= n; mult++)
 	{
 		result = digit * mult;
@@ -37,5 +37,6 @@ void print_times_table(int n)
 	}
 	}
 	_putchar('\n');
+	}
 	}
 }
