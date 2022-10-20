@@ -11,10 +11,6 @@ void print_diagonal(int n)
 int i;
 int spaces;
 
-for (n < 0 && n = 0)
-{
-_putchar('\n');
-}
 if (n > 0)
 {
 for (i = 0; i <= n; i++)
@@ -30,6 +26,10 @@ continue;
 }
 _putchar('\n');
 }
+_putchar('\n');
+}
+else
+{
 _putchar('\n');
 }
 }
