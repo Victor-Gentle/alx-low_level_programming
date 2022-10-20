@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _isupper - checks for uppercase character
-* @c: the targeted letter
-* Return: 1 if c is uppercase, otherwise 0
-*/
+ * _isupper - checks for uppercase character
+ * @c: the targeted letter
+ * Return: 1 if c is uppercase, otherwise 0
+ */
 
 int _isupper(int c)
 {
@@ -17,4 +17,4 @@ else
 return (0);
 }
 _putchar('\n');
-}	
+}
