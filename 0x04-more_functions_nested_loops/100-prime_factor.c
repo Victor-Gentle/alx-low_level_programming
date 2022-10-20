@@ -9,7 +9,8 @@
 
 int main(void)
 {
-long num = 612852475143, i;
+int i;
+long num = 612852475143,
 
 while (i < (num / 2))
 {
