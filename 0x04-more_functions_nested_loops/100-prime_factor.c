@@ -8,24 +8,23 @@
 
 int main(void)
 {
-long num = 612852475143;
-int i;
+long num = 612852475143, i;
 
-while (i++ < num / 2)
+while (i < (num / 2))
 {
-if (num % i == 0)
+if ((num % i) == 0)
 {
 num /= 2;
 continue;
 }
-for (i = 3; i < num /2; i += 2)
+for (i = 3; i < (num / 2); i += 2)
 {
-if (num % i == 0)
+if ((num % i) == 0)
 {
 num /= i;
 }
 }
 }
-printf("%ld\n", num);
+printf("%d\n", num);
 return (0);
 }
