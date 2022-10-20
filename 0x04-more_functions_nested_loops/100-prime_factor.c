@@ -28,6 +28,7 @@ num /= i;
 }
 }
 printf("%d\n", num);
-_putchar('\n');
 return (0);
+_putchar('\n');
+
 }
