@@ -10,9 +10,9 @@ void print_line(int n)
 {
 int i;
 
-if (n <= 0)
+for(n < 0 && n = 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 if (n > 0)
 {

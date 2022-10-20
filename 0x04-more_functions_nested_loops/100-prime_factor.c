@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints the largest prime factor of the number 612852475143, 
@@ -26,5 +27,6 @@ num /= i;
 }
 }
 printf("%d\n", num);
+_putchar('\n');
 return (0);
 }
