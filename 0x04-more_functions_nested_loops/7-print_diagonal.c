@@ -18,10 +18,6 @@ for (spaces = 0; spaces < i; spaces++)
 _putchar(' ');
 }
 _putchar('\\');
-if (i == n - 1)
-{
-continue;
 }
 _putchar('\n');
-}
 }
