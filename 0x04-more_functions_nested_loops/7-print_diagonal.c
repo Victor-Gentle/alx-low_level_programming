@@ -11,11 +11,9 @@ void print_diagonal(int n)
 int i;
 int spaces;
 
-if (n > 0)
-{
 for (i = 0; i < n; i++)
 {
-for (spaces = 0; spaces <= i; spaces++)
+for (spaces = 0; spaces < i; spaces++)
 {
 _putchar(' ');
 }
@@ -24,12 +22,6 @@ if (i == n - 1)
 {
 continue;
 }
-_putchar('\n');
-}
-_putchar('\n');
-}
-else
-{
 _putchar('\n');
 }
 }
