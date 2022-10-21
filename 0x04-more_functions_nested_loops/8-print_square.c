@@ -13,9 +13,9 @@ int a;
 
 if (size > 0)
 {
-for (i = 0; i <= size; size++)
+for (i = 0; i < size; size++)
 {
-for (a = 0; a <= size; a++)
+for (a = 0; a < size; a++)
 {
 _putchar('#');
 }
