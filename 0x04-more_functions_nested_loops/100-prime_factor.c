@@ -9,17 +9,17 @@
 
 int main(void)
 {
-int i;
-long int num = 612852475143,
+	int i;
+	long int num = 612852475143,
 
-for (i = 2; i < num; i++)
-{
-if (num % i == 0)
-{
-num = num / i;
-}
-printf("%ld\n", num);
-return (0);
-}
-_putchar('\n');
+	for (i = 2; i < num; i++)
+	{
+		if (num % i == 0)
+		{
+			num = num / i;
+		}
+		printf("%ld\n", num);
+	_putchar('\n');
+	}
+	return (0);
 }
