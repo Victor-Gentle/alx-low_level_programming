@@ -7,10 +7,11 @@
  *Return: Void
  */
 
-void swap_int(int *a, int *b)
+void swap_int(int *a, int *bi)
 {
-	int temp = *a;
+	int temp = 0;
 
+	temp = *a;
 	*a = *b;
 	*b = temp;
 }

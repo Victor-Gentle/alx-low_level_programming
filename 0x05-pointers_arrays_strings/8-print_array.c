@@ -15,10 +15,10 @@ void print_array(int *a, int n)
 
 	for (inc = 0; inc < n; inc++)
 	{
+		printf("%d", a[inc]);
+
 		if (inc + 1 != n)
 			printf(", ");
-		else
-			printf("%d", a[inc]);
 	}
 	printf("\n");
 }
