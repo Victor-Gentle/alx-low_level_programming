@@ -9,6 +9,6 @@
 
 int main(int _attribute_((_unused_)) argc, char *argv[])
 {
-	printf("%d\n", agrc);
+	printf("%d\n", agrv);
 	return (0);
 }
