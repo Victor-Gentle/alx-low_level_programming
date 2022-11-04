@@ -3,18 +3,18 @@
 
 /**
  * main - adds positive numbers
- * @agrc: number of arguments
- * @agrv: array of arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  * Return: 0
  */
 
-int main(int agrc, char *agrv[])
+int main(int argc, char *argv[])
 {
 	int i, j, sum = 0;
 
-	for (i = 0, i < agrc, i++)
+	for (i = 0, i < argc, i++)
 	{
-		if (argv[i] = '\0')
+		if (argv[i] == '\0')
 			printf("0\n");
 		for (j = 0, argv[i][j]; j++)
 		{
@@ -24,7 +24,7 @@ int main(int agrc, char *agrv[])
 				return (1);
 			}
 		}
-		sum += atoi(agrv[i]);
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);

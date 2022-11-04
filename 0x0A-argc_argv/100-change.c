@@ -4,16 +4,16 @@
 /**
  * main - prints the minimum number of coins
  * to make change for an amount of money.
- * @agrc: number of arguments
- * @agrv: array of arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  * Return: 0
  */
 
-int main(int agrc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
-	
-	if (agrc != 2)
+
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
@@ -22,7 +22,7 @@ int main(int agrc, char *argv[])
 
 	while (cents > 0)
 	{
-		coins ++;
+		coins++;
 		if ((cents - 25) >= 0)
 		{
 			cents -= 25;

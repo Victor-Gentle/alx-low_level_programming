@@ -3,12 +3,12 @@
 
 /**
  * main - multiplies two numbers.
- * @agrc: number of arguments
- * @agrc: array f arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  * Return: 0
  */
 
-int main(int argc, char *agrv[])
+int main(int argc, char *argv[])
 {
 	int i, j, mult;
 
@@ -17,8 +17,8 @@ int main(int argc, char *agrv[])
 		printf("Error\n");
 		return (1);
 	}
-	i = atoi(agrv[1]);
-	j = atoi(agrv[2]);
+	i = atoi(argv[1]);
+	j = atoi(argv[2]);
 	mult = i * j;
 
 	printf("%d\n", mult);
