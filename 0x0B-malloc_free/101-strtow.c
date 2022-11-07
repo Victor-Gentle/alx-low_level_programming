@@ -9,7 +9,7 @@
 char **strtow(char *str)
 {
 char **split;
-int i, j = 0, temp = 0, words = num_words(str);
+int i, j = 0, temp = 0, size = 0, words = num_words(str);
 
 if (words == 0)
 return (NULL);
