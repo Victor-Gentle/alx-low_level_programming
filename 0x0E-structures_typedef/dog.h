@@ -1,10 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
 
-es (23 sloc)  414 Bytes
-#ifndef DOG
-#define DOG
-
 /**
  * struct dog - dog class
  *
