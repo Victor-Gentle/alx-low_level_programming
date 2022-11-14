@@ -15,10 +15,3 @@ void free_dog(dog_t *d)
 	free(d->name);
 	free(d);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Stat
