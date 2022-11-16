@@ -6,7 +6,7 @@
  * @name: string to print.
  * @f: this a function pointer, that recieves a string.
  * Description: this function prints a name)?
- * section header: the header of this function is function_pointers.h)*
+ * section header: the header of this function is function_pointers.h)
  * Return: this is a void function no return
  */
 
