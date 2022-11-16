@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int (*func_ptr)(int, int);
-	
+
 	if (argc != 4)
 	{
 		printf("Error\n");
@@ -24,6 +24,6 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	printf("%d\n", func_ptr(atoi(argv[1]), atoi(argv[3])));
-	
+
 	return (0);
 }

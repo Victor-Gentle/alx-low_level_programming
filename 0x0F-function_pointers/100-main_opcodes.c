@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	int n_bytes, i;
 	int (*prog)(int, char **) = &main;
-	
+
 	if (argc == 2)
 	{
 		n_bytes = atoi(argv[1]);
@@ -30,6 +30,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
-	
+
 	return (0);
 }
