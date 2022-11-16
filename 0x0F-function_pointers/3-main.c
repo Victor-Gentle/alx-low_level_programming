@@ -23,6 +23,13 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
+	func_ptr = get_op_func(argv[2]);
+	
+	if (func_ptr == NULL)
+	{
+		printf("Error\n");
+		exit(99);
+	}
 	printf("%d\n", func_ptr(atoi(argv[1]), atoi(argv[3])));
 
 	return (0);
