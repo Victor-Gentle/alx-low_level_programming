@@ -3,11 +3,8 @@
 
 /**
  * main - Prints the opcodes of this function
- *
  * @argc: The number of command-line arguments
- *
  * @argv: The command-line arguments
- *
  * Return: 0 if successful
  */
 
@@ -15,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	int n_bytes, i;
 	int (*prog)(int, char **) = &main;
-
+	
 	if (argc == 2)
 	{
 		n_bytes = atoi(argv[1]);
@@ -33,7 +30,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
-
+	
 	return (0);
-
 }
