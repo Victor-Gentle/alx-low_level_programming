@@ -13,13 +13,13 @@ int sum = 0;
 unsigned int i;
 va_list arguments;
 
-va_start(arguments, n);
+if (n == 0)
+return (sum);
 
-if (n != 0)
+va_start(arguments, n);
 for (i = 0; i < n; i++)
-{
 sum += va_arg(arguments, int);
-}
+  
 va_end(arguments);
 return (sum);
 }
